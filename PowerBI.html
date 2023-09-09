@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2KKWBSFTJS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2KKWBSFTJS');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Layout Example</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+  }
+
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: 70%;
+  }
+
+  .image-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="./images/PowerBI_1.PNG" alt="Image 1">
+  </div>
+  <div class="image-wrapper">
+    <img src="./images/PowerBI_2.PNG" alt="Image 2">
+    <img src="./images/PowerBI_3.PNG" alt="Image 3">
+    <img src="./images/PowerBI_4.PNG" alt="Image 4">
+    <img src="./images/PowerBI_5.PNG" alt="Image 5">
+    <img src="./images/PowerBI_6.PNG" alt="Image 6">
+
+  </div>
+</body>
+</html>
+
+
